@@ -98,7 +98,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Name = "Password";
+            //this.Name = "Password";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,7 +16,7 @@ namespace Project1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Password());
+            Application.Run(new T5Q1());
         }
     }
 }

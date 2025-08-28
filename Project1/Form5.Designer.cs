@@ -39,6 +39,7 @@
             this.Male = new System.Windows.Forms.RadioButton();
             this.Female = new System.Windows.Forms.RadioButton();
             this.City1 = new System.Windows.Forms.TextBox();
+            this.Submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Name1
@@ -48,7 +49,6 @@
             this.Name1.Size = new System.Drawing.Size(258, 22);
             this.Name1.TabIndex = 0;
             this.Name1.Text = "Enter Name";
-            //this.Name1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Name
             // 
@@ -147,12 +147,22 @@
             this.City1.TabIndex = 11;
             this.City1.Text = "City";
             // 
+            // Submit
+            // 
+            this.Submit.Location = new System.Drawing.Point(314, 300);
+            this.Submit.Name = "Submit";
+            this.Submit.Size = new System.Drawing.Size(131, 48);
+            this.Submit.TabIndex = 12;
+            this.Submit.Text = "Submit";
+            this.Submit.UseVisualStyleBackColor = true;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Submit);
             this.Controls.Add(this.City1);
             this.Controls.Add(this.Female);
             this.Controls.Add(this.Male);
@@ -164,8 +174,7 @@
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.Name1);
-           // this.Name = "Form5";
-           // this.Text = "Form5";
+            this.Name = "Form5";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +193,6 @@
         private System.Windows.Forms.RadioButton Male;
         private System.Windows.Forms.RadioButton Female;
         private System.Windows.Forms.TextBox City1;
+        private System.Windows.Forms.Button Submit;
     }
 }
